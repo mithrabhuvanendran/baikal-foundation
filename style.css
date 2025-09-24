@@ -424,6 +424,7 @@ footer .bottom p:nth-child(2) {
 
   .about-portfolio div {
     flex-direction: column;
+    gap: 120px;
   }
 
   .about-portfolio div figure {
@@ -472,5 +473,19 @@ footer .bottom p:nth-child(2) {
   .about-portfolio div figure {
     height: 300px;
     width: 350px;
+  }
+}
+
+@media (max-width: 375px) {
+  .about {
+    height: fit-content;
+  }
+
+   .about-portfolio {
+    padding-bottom: 150px;
+  }
+
+  .about-portfolio div {
+    gap: 150px;
   }
 }
