@@ -195,7 +195,7 @@ main header nav ul button:hover {
 }
 
 .about {
-  height: 45vh;
+  height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -419,6 +419,10 @@ footer .bottom p:nth-child(2) {
   }
 
   .about .about-details p:nth-child(2) {
+    width: 100%;
+  }
+
+  .about .about-details p:nth-child(2) {
     font-size: 1rem;
   }
 
@@ -470,6 +474,14 @@ footer .bottom p:nth-child(2) {
     text-align: center;
   }
 
+  .about .about-details {
+    padding: 50px;
+  }
+
+  .about-portfolio {
+    padding-bottom: 150px;
+  }
+
   .about-portfolio div figure {
     height: 300px;
     width: 350px;
@@ -481,8 +493,8 @@ footer .bottom p:nth-child(2) {
     height: fit-content;
   }
 
-   .about-portfolio {
-    padding-bottom: 150px;
+  .about .about-details {
+    padding: 50px;
   }
 
   .about-portfolio div {
