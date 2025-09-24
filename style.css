@@ -247,7 +247,7 @@ main header nav ul button:hover {
   display: grid;
   height: 65vh;
   /* border: solid; */
-  padding-bottom: 50px;
+  padding-bottom: 70px;
 }
 
 .about-portfolio div {
@@ -386,7 +386,12 @@ footer .bottom p:nth-child(2) {
   }
 
   .about-portfolio {
-    height: 40vh;
+    height: fit-content;
+    padding-bottom: 120px;
+  }
+
+  .about-portfolio div {
+    gap: 90px;
   }
 
   .about-portfolio div figure {
@@ -417,14 +422,8 @@ footer .bottom p:nth-child(2) {
     font-size: 1rem;
   }
 
-  .about-portfolio {
-    height: 85vh;
-  }
-
   .about-portfolio div {
     flex-direction: column;
-    gap: 50px;
-    padding-bottom: 50px;
   }
 
   .about-portfolio div figure {
@@ -446,6 +445,14 @@ footer .bottom p:nth-child(2) {
     left: 8%;
   }
 
+  main header nav ul li select option {
+    text-align: start;
+  }
+
+  .home {
+    padding-top: 250px;
+  }
+
   .home .home-details p:first-child {
     font-size: 2rem;
   }
@@ -460,10 +467,6 @@ footer .bottom p:nth-child(2) {
 
   .about .about-details p:nth-child(3) {
     text-align: center;
-  }
-
-  .about-portfolio {
-    height: 75vh;
   }
 
   .about-portfolio div figure {
